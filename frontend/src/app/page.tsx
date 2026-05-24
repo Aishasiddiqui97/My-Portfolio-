@@ -338,6 +338,66 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
+              {/* INTERNSHIP Todo App */}
+              <div className="group relative bg-[#1A1333]/50 backdrop-blur-xl border border-[#00E5C4]/20 rounded-2xl overflow-hidden shadow-xl hover:shadow-[#00E5C4]/30 transition-all duration-700 hover:-translate-y-1 hover:scale-[1.02]">
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3 text-[#00E5C4]">INTERNSHIP Todo App</h3>
+                  <p className="text-[#A09FC0] mb-4">A full-stack to-do application built with Next.js, MongoDB, and JWT authentication — featuring secure cookie-based auth, TypeScript, and Tailwind CSS for a modern, responsive user experience.</p>
+                  <div className="flex flex-wrap gap-2">
+                    <a href="https://github.com/Aishasiddiqui97/INTERNSHIP-Todo-App" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-[#00E5C4] to-[#D4A24C] text-[#0F0B1F] rounded-lg text-sm font-medium hover:opacity-90 transition-opacity">GitHub</a>
+                    <a href="https://internship-tasks-todo-app-yplf.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-[#00E5C4] to-[#D4A24C] text-[#0F0B1F] rounded-lg text-sm font-medium hover:opacity-90 transition-opacity">Live Demo</a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Blog Platform Admin Panel */}
+              <div className="group relative bg-[#1A1333]/50 backdrop-blur-xl border border-[#00E5C4]/20 rounded-2xl overflow-hidden shadow-xl hover:shadow-[#00E5C4]/30 transition-all duration-700 hover:-translate-y-1 hover:scale-[1.02]">
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3 text-[#00E5C4]">Blog Platform Admin Panel</h3>
+                  <p className="text-[#A09FC0] mb-4">A modern, scalable blog platform with admin panel built using Next.js, MongoDB, and Tailwind CSS — featuring JWT authentication, rich text editor, image upload, and comprehensive blog management capabilities.</p>
+                  <div className="flex flex-wrap gap-2">
+                    <a href="https://github.com/Aishasiddiqui97/Blog-Platform-AdminPanel" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-[#00E5C4] to-[#D4A24C] text-[#0F0B1F] rounded-lg text-sm font-medium hover:opacity-90 transition-opacity">GitHub</a>
+                    <a href="https://internship-tasks-blog-platform-admi-ten.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-[#00E5C4] to-[#D4A24C] text-[#0F0B1F] rounded-lg text-sm font-medium hover:opacity-90 transition-opacity">Live Demo</a>
+                  </div>
+                </div>
+              </div>
+
+              {/* E-commerce WebApp */}
+              <div className="group relative bg-[#1A1333]/50 backdrop-blur-xl border border-[#00E5C4]/20 rounded-2xl overflow-hidden shadow-xl hover:shadow-[#00E5C4]/30 transition-all duration-700 hover:-translate-y-1 hover:scale-[1.02]">
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3 text-[#00E5C4]">E-commerce WebApp</h3>
+                  <p className="text-[#A09FC0] mb-4">A fully responsive e-commerce web application with product catalog, shopping cart, checkout process, and payment integration — built with modern web technologies for optimal performance and user experience.</p>
+                  <div className="flex flex-wrap gap-2">
+                    <a href="https://github.com/Aishasiddiqui97/-E-commerce-webapp" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-[#00E5C4] to-[#D4A24C] text-[#0F0B1F] rounded-lg text-sm font-medium hover:opacity-90 transition-opacity">GitHub</a>
+                    <a href="https://e-commerce-webapp-two.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-[#00E5C4] to-[#D4A24C] text-[#0F0B1F] rounded-lg text-sm font-medium hover:opacity-90 transition-opacity">Live Demo</a>
+                  </div>
+                </div>
+              </div>
+
+              {/* RedPulse SaaS Dashboard */}
+              <div className="group relative bg-[#1A1333]/50 backdrop-blur-xl border border-[#00E5C4]/20 rounded-2xl overflow-hidden shadow-xl hover:shadow-[#00E5C4]/30 transition-all duration-700 hover:-translate-y-1 hover:scale-[1.02]">
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3 text-[#00E5C4]">RedPulse SaaS Dashboard</h3>
+                  <p className="text-[#A09FC0] mb-4">A full-featured SaaS admin dashboard built with React, Vite, and Tailwind CSS — includes authentication, analytics, API key management, user management, activity logs, and system settings with smooth animations.</p>
+                  <div className="flex flex-wrap gap-2">
+                    <a href="https://github.com/Aishasiddiqui97/redpulse-saas-dashboard" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-[#00E5C4] to-[#D4A24C] text-[#0F0B1F] rounded-lg text-sm font-medium hover:opacity-90 transition-opacity">GitHub</a>
+                    <a href="https://redpulse-saas-dashboard.vercel.app/login" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-[#00E5C4] to-[#D4A24C] text-[#0F0B1F] rounded-lg text-sm font-medium hover:opacity-90 transition-opacity">Live Demo</a>
+                  </div>
+                </div>
+              </div>
+
+              {/* AI Resume Analyzer */}
+              <div className="group relative bg-[#1A1333]/50 backdrop-blur-xl border border-[#00E5C4]/20 rounded-2xl overflow-hidden shadow-xl hover:shadow-[#00E5C4]/30 transition-all duration-700 hover:-translate-y-1 hover:scale-[1.02]">
+                <div className="p-6">
+                  <h3 className="text-xl font-bold mb-3 text-[#00E5C4]">AI Resume Analyzer</h3>
+                  <p className="text-[#A09FC0] mb-4">An intelligent resume analyzer powered by AI that evaluates resumes, provides actionable feedback, and offers suggestions for improvement — built with Next.js for seamless performance and user experience.</p>
+                  <div className="flex flex-wrap gap-2">
+                    <a href="https://github.com/Aishasiddiqui97/Ai-Resume-Analyzer" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-[#00E5C4] to-[#D4A24C] text-[#0F0B1F] rounded-lg text-sm font-medium hover:opacity-90 transition-opacity">GitHub</a>
+                    <a href="https://ai-resume-analyzer-ebon-eight.vercel.app/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-gradient-to-r from-[#00E5C4] to-[#D4A24C] text-[#0F0B1F] rounded-lg text-sm font-medium hover:opacity-90 transition-opacity">Live Demo</a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
