@@ -58,3 +58,5 @@ frontend/.env.local
 # Other
 *.log
 *.tmp
+.vercel
+.env*.local
