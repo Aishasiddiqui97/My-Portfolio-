@@ -325,6 +325,7 @@ export default function Home() {
                   width={400}
                   height={400}
                   priority
+                  style={{ width: "auto", height: "auto" }}
                   className="relative rounded-full shadow-2xl"
                 />
                 <div className="absolute bottom-4 right-4 bg-[#1A1333]/70 backdrop-blur-sm border border-[#00E5C4]/30 rounded-lg px-4 py-2 max-w-xs">
@@ -571,15 +572,20 @@ export default function Home() {
               title="Aisha Siddiqui Resume"
               aria-label="PDF resume viewer"
               loading="lazy"
-            >
-              <p className="text-center p-8 text-[#A09FC0]">
-                Your browser doesn&apos;t support PDFs.{" "}
-                <a href="/resume.pdf" className="text-[#00E5C4] hover:underline" target="_blank" rel="noopener noreferrer">
-                  Download the PDF instead
+            />
+            <div className="p-4 bg-[#0F0B1F]/60 border-t border-[#00E5C4]/10 text-center">
+              <p className="text-sm text-[#A09FC0]">
+                Trouble viewing the resume?{" "}
+                <a
+                  href="/resume.pdf"
+                  className="text-[#00E5C4] hover:underline font-medium"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download or open PDF in a new tab &rarr;
                 </a>
-                .
               </p>
-            </iframe>
+            </div>
           </div>
         </div>
       </section>
@@ -610,17 +616,6 @@ export default function Home() {
                       <p className="font-medium">Email</p>
                       <a href={`mailto:${EMAIL}`} className="text-[#A09FC0] hover:text-[#00E5C4] transition-colors">
                         {EMAIL}
-                      </a>
-                    </div>
-                  </div>
-                  <div className="flex items-start">
-                    <span className="text-[#00E5C4] mr-3 mt-1" aria-hidden="true">
-                      📱
-                    </span>
-                    <div>
-                      <p className="font-medium">Phone</p>
-                      <a href="tel:03323742808" className="text-[#A09FC0] hover:text-[#00E5C4] transition-colors">
-                        0332-3742808
                       </a>
                     </div>
                   </div>
